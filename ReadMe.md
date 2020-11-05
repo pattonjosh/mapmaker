@@ -1,5 +1,5 @@
 ## Team 2
-**Project Manager:** Schuyler Hart
+**Project Manager:** 
 
 **Quality Control:**  
 
