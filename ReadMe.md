@@ -4,6 +4,8 @@ Schuyler Hart
 
 **Quality Control:**  
 
+Rasharious Thomas 
+
 **Developers:**  
 Joshua Patton
 
