@@ -7,7 +7,7 @@ Schuyler Hart
 **Developers:**  
 Joshua Patton
 
-Jykia Johnson Hayes
+Jykia Johnson Hayes 
 
 Mei Perry
 ## Features
