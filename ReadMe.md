@@ -3,7 +3,6 @@
 Schuyler Hart
 
 **Quality Control:**  
-
 Rasharious Thomas 
 
 **Developers:**  
