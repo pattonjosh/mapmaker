@@ -1,12 +1,11 @@
 ## Team 2
 **Project Manager:**   
-Schuyler Hart
+Joshua Patton
 
 **Quality Control:**  
 Rasharious Thomas 
 
 **Developers:**  
-Joshua Patton
 
 Jykia Johnson Hayes 
 
