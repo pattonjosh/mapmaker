@@ -2,7 +2,7 @@ Current functionallity:
 
 As this program stands on 11/14/20, this programs current capabillities are as shown below.
 
-* Standard UI- This program opens a standard window that contains an interactable workspace in in the center of the frame. Above this workspace, this window also provides a text-based menubar located in the top left corner. 
+* Standard UI- This program opens a standard window that contains an interactable workspace in in the center of the frame. Above this workspace, this window also provides a text-based menubar located in the top left corner. Boardering the bottom of this window contains a text field box.  
 
 * Menubar- The menubar consists of 6 different text-based menus File, Edit, View, Image, Extra, and Help. 
 
