@@ -18,5 +18,22 @@
   - Help Menu- This menu hold links that connects the user to the Docs folder, of which contains text files that have instructions about each part of this programs functionallity, as well as giving information about existing features and tools. 
 	
   
-  * Proposed enhancement's, based on Objectives []
-  * Proposed enhancement's, based on Goals []
+* Proposed enhancement's, based on Objectives []
+  - Implement a better graphical UI
+  
+  - Look into a more effcient project design. 
+  
+  - Keep existing functionality.
+  
+* Proposed enhancement's, based on Goals []
+  - Add legend to left of workspace, that contains each object with name of each object. 
+  
+  - Replace text-based menu with a button-based menu.
+  
+  - Implement a seperate settings window for each object.
+  
+  - Fix the help menu.
+  
+  - Add placeholders to description textfields. 
+  
+  - Enable the ability to connect objects throught their own object window. 
