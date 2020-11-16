@@ -1,0 +1,39 @@
+* Design Proposal []
+  * Existing Functionality- As this program stands on 11/14/20, this programs current capabillities are as shown below.
+
+  - Standard UI- This program opens a standard window that contains an interactable workspace in in the center of the frame. This window also provides a text-based menubar located in the top left corner. Boardering the bottom of this window contains a text field box.  
+
+  - Menubar- The menubar consists of 6 different text-based menus File, Edit, View, Image, Extra, and Help. 
+
+  - File Menu- This menu holds menu items that allow the user to open an existing map, save an existing/new map, save as option, and allows the user to exit an existing/new project.
+
+  - Edit Menu- This menu allows the user to edit the current project, clear the current project, get the map size, search rooms, and unmark rooms. This menu also contains a submenu for room color, allowing the user to pick from a selected few different colors to apply to a room. 
+
+  - View Menu- This menu allows user to view selected items, view size of selected items, customize the size of selected items, as well as change selected items to small, medium, or maximized sizes. This menu also allows you to make virtual rooms visible.
+
+  - Image Menu- This menu helps the user move the legend from the side of the screen to the bottom. This menu also give the user the ability to save the project as an image, and allows you to preview the images as well. 
+
+  - ROM Menu- This menu holds menu items that allow the user to set specific sectors, set room flags, re-name room flags, create ROM area, and create OLC code of selected project. 
+
+  - Help Menu- This menu hold links that connects the user to the Docs folder, of which contains text files that have instructions about each part of this programs functionallity, as well as giving information about existing features and tools. 
+	
+  
+* Proposed enhancement's, based on Objectives []
+  - Implement a better graphical UI
+  
+  - Look into a more effcient project design. 
+  
+  - Keep existing functionality.
+  
+* Proposed enhancement's, based on Goals []
+  - Add legend to left of workspace, that contains each object with name of each object. 
+  
+  - Replace text-based menu with a button-based menu.
+  
+  - Implement a seperate settings window for each object.
+  
+  - Fix the help menu.
+  
+  - Add placeholders to description textfields. 
+  
+  - Enable the ability to connect objects throught their own object window. 
