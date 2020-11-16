@@ -16,5 +16,5 @@ Added new ReadMe.Md with groups names
 Added new src folder with JDeveloper Project
 
 ## Conceptual Drawings
-![](doc/DevelopmentMap.jpg)
-![](doc/StoryBoard.jpg)
+![](doc/Images/DevelopmentMap.jpg)
+![](doc/Images/StoryBoard.jpg)
