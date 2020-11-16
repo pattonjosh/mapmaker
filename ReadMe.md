@@ -14,3 +14,7 @@ Mei Perry
 Added new ReadMe.Md with groups names
 
 Added new src folder with JDeveloper Project
+
+## Conceptual Drawings
+![](doc/DevelopmentMap.jpg)
+![](doc/StoryBoard.jpg)
