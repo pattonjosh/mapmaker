@@ -11,9 +11,6 @@ Jykia Johnson Hayes
 
 Mei Perry
 ## Features
-Added new ReadMe.Md with groups names
-
-Added new src folder with JDeveloper Project
 
 Added conceptual drawings to ReadMe.md
 
