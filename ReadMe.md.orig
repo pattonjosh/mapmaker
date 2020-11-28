@@ -11,12 +11,22 @@ Jykia Johnson Hayes
 
 Mei Perry
 ## Features
+<<<<<<< HEAD
+
 Added conceptual drawings to ReadMe.md
 
 Added new doc folder to hold images (Images)
 
 Added new doc file containing project documentation (project.help)
 
+=======
+Added conceptual drawings to ReadMe.md
+
+Added new doc folder to hold images (Images)
+
+Added new doc file containing project documentation (project.help)
+
+>>>>>>> QA
 ## Conceptual Drawings
 ![](doc/Images/DevelopmentMap.jpg)
 ![](doc/Images/StoryBoard.jpg)
