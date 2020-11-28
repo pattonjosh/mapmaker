@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Exit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Map Size" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+                  <Menu mnemonicParsing="false" text="Room Colors..">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="clear" />
+                        <MenuItem mnemonicParsing="false" text="black" />
+                        <MenuItem mnemonicParsing="false" text="blue" />
+                        <MenuItem mnemonicParsing="false" text="cyan" />
+                        <MenuItem mnemonicParsing="false" text="darkGray" />
+                        <MenuItem mnemonicParsing="false" text="gray" />
+                        <MenuItem mnemonicParsing="false" text="green" />
+                        <MenuItem mnemonicParsing="false" text="lightGray" />
+                        <MenuItem mnemonicParsing="false" text="magenta" />
+                        <MenuItem mnemonicParsing="false" text="orange" />
+                        <MenuItem mnemonicParsing="false" text="pink" />
+                        <MenuItem mnemonicParsing="false" text="red" />
+                        <MenuItem mnemonicParsing="false" text="white" />
+                        <MenuItem mnemonicParsing="false" text="yellow" />
+                    </items>
+                  </Menu>
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="View">
+          <items>
+                  <Menu mnemonicParsing="false" text="View Size">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Custom" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Small" />
+                        <MenuItem mnemonicParsing="false" text="Medium" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" text="Maximize" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Show Virtual Rooms" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="Image">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Save as Image" />
+                  <MenuItem mnemonicParsing="false" text="Preview as Image" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="ROM">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Create ROM Area" />
+                  <MenuItem mnemonicParsing="false" text="Create OLC Code" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="General" />
+                  <MenuItem mnemonicParsing="false" text="Edit" />
+                  <MenuItem mnemonicParsing="false" text="Menu" />
+                  <MenuItem mnemonicParsing="false" text="ROM" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS" />
+  </children>
+</VBox>
