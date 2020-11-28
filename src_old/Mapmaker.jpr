@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
+   <hash n="component-versions">
+      <value n="oracle.ideimpl.model.TechnologyScopeUpdateMigrator" v="11.1.2.0.0.6"/>
+   </hash>
+   <list n="contentSets">
+      <string v="oracle.jdeveloper.model.PathsConfiguration/javaContentSet"/>
+      <string v="oracle.ide.model.ResourcePaths/resourcesContentSet"/>
+   </list>
+   <value n="defaultPackage" v="mapmaker"/>
+   <hash n="oracle.jdeveloper.model.PathsConfiguration">
+      <hash n="javaContentSet">
+         <list n="constituent-sets">
+            <hash>
+               <list n="pattern-filters">
+                  <string v="+**"/>
+               </list>
+               <list n="url-path">
+                  <url path="src/"/>
+               </list>
+            </hash>
+            <hash>
+               <list n="pattern-filters">
+                  <string v="+**"/>
+               </list>
+               <list n="url-path">
+                  <url path="src_old/"/>
+               </list>
+            </hash>
+         </list>
+         <list n="url-path"/>
+      </hash>
+   </hash>
+   <hash n="oracle.jdevimpl.config.JProjectPaths">
+      <url n="outputDirectory" path="classes/"/>
+   </hash>
+</jpr:project>
