@@ -1,0 +1,26 @@
+## Team 2
+**Project Manager:**   
+Joshua Patton
+
+**Quality Control:**  
+Rasharious Thomas 
+
+**Developers:**  
+
+Jykia Johnson Hayes 
+
+Mei Perry
+## Features
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4f9aefe6aab1e791e3f0e36dde00237e271b76b
+Added conceptual drawings to ReadMe.md
+
+Added new doc folder to hold images (Images)
+
+Added new doc file containing project documentation (project.help)
+
+## Conceptual Drawings
+![](doc/Images/DevelopmentMap.jpg)
+![](doc/Images/StoryBoard.jpg)
