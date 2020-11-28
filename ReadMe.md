@@ -11,6 +11,10 @@ Jykia Johnson Hayes
 
 Mei Perry
 ## Features
+Update conceptual drawing
+
+Created a new project
+
 Added conceptual drawings to ReadMe.md
 
 Added new doc folder to hold images (Images)
