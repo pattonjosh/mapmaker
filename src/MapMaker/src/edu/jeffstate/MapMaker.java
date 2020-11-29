@@ -25,7 +25,7 @@ public class MapMaker extends Application{
         try {
             Parent root = FXMLLoader.load(getClass().getResource("MapMakerGUI.fxml"));
                 
-            var scene = new Scene(root, 600, 400);       
+            var scene = new Scene(root, 630, 400);       
                 
             stage.setTitle("MapMaker");
             stage.setScene(scene);
