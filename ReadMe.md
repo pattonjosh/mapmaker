@@ -23,4 +23,4 @@ Added new doc file containing project documentation (project.help)
 
 ## Conceptual Drawings
 ![](doc/Images/DevelopmentMap.jpg)
-![](doc/Images/StoryBoard.jpg)
+![](doc/Images/ConceptualDrawingUpdate.jpg)
