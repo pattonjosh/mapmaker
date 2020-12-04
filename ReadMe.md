@@ -19,7 +19,7 @@ Added button based menu to UI. (Controller class not conncted)
 
 Added tree view to UI. (Controller class not conncted)
 
-Added tab pane to UI.  (holds map)
+Added tab pane to UI.  (Controller class not conncted)
 
 Created new controller class to hold GUI's action events. (MapMaperController.java)
 
