@@ -10,6 +10,18 @@ Rasharious Thomas
 Jykia Johnson Hayes 
 
 Mei Perry
+## System Requirements 
+Java Version: 15.0.1 
+
+## Developer Requirements 
+Java JDK: 15.0.1
+
+JavaFX: 15.0.1
+
+IDE: JDeveloper 12c
+
+IDE Version: 12.2.2.1.4.0
+
 ## Features
 Created new project with JavaFX, added to src file.
 
