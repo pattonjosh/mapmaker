@@ -1,26 +1,46 @@
 ## Team 2
-**Project Manager:**   
+**Project Manager**   
 Joshua Patton
 
-**Quality Control:**  
+**Quality Control**  
 Rasharious Thomas 
 
-**Developers:**  
+**Developers**  
 
 Jykia Johnson Hayes 
 
 Mei Perry
+## System Requirements 
+Java Version: 15.0.1 
+
+## Developer Requirements 
+Java JDK: 15.0.1
+
+JavaFX: 15.0.1
+
+IDE: JDeveloper 12c
+
+IDE Version: 12.2.2.1.4.0
+
 ## Features
-Update conceptual drawing
+Created new project with JavaFX, added to src file.
 
-Created a new project
+Moved old project to src_old.
 
-Added conceptual drawings to ReadMe.md
+Added button based menu to UI. (Controller class not conncted)
 
-Added new doc folder to hold images (Images)
+Added tree view to UI. (Controller class not conncted)
 
-Added new doc file containing project documentation (project.help)
+Added tab pane to UI.  (Controller class not conncted)
+
+Created new controller class to hold GUI's action events. (MapMaperController.java)
+
+Updated conceptual drawings in ReadMe.md. 
+
+Added new doc folder to hold images. (Images)
+
+Added new doc file containing project documentation. (project.help)
 
 ## Conceptual Drawings
 ![](doc/Images/DevelopmentMap.jpg)
-![](doc/Images/StoryBoard.jpg)
+![](doc/Images/ConceptualDrawingUpdate.jpg)
