@@ -1,11 +1,11 @@
 ## Team 2
-**Project Manager:**   
+**Project Manager**   
 Joshua Patton
 
-**Quality Control:**  
+**Quality Control**  
 Rasharious Thomas 
 
-**Developers:**  
+**Developers**  
 
 Jykia Johnson Hayes 
 
