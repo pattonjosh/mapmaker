@@ -9,45 +9,49 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TreeView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.jeffstate.MapMakerController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
         <Menu mnemonicParsing="false" text="File">
           <items>
-            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemNew" text="New" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" text="Save" />
-            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemSave" text="Save" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemSaveAs" text="Save As…" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" text="Exit" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemExit" text="Exit" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Edit">
           <items>
-            <MenuItem mnemonicParsing="false" text="Map Size" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemMapSize" text="Map Size" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemSearchRooms" text="Search Rooms" />
                   <Menu mnemonicParsing="false" text="Room Colors..">
                     <items>
-                      <MenuItem mnemonicParsing="false" text="clear" />
-                        <MenuItem mnemonicParsing="false" text="black" />
-                        <MenuItem mnemonicParsing="false" text="blue" />
-                        <MenuItem mnemonicParsing="false" text="cyan" />
-                        <MenuItem mnemonicParsing="false" text="darkGray" />
-                        <MenuItem mnemonicParsing="false" text="gray" />
-                        <MenuItem mnemonicParsing="false" text="green" />
-                        <MenuItem mnemonicParsing="false" text="lightGray" />
-                        <MenuItem mnemonicParsing="false" text="magenta" />
-                        <MenuItem mnemonicParsing="false" text="orange" />
-                        <MenuItem mnemonicParsing="false" text="pink" />
-                        <MenuItem mnemonicParsing="false" text="red" />
-                        <MenuItem mnemonicParsing="false" text="white" />
-                        <MenuItem mnemonicParsing="false" text="yellow" />
+                      <MenuItem mnemonicParsing="false" onAction="#menuItemRCClear" text="clear" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCBlack" text="black" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCBlue" text="blue" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCCyan" text="cyan" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCDarkGray" text="darkGray" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCGray" text="gray" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCGreen" text="green" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCLightGray" text="lightGray" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCMagenta" text="magenta" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCOrange" text="orange" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCPink" text="pink" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCRed" text="red" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCWhite" text="white" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemRCYellow" text="yellow" />
                     </items>
                   </Menu>
           </items>
@@ -56,27 +60,27 @@
           <items>
                   <Menu mnemonicParsing="false" text="View Size">
                     <items>
-                      <MenuItem mnemonicParsing="false" text="Custom" />
+                      <MenuItem mnemonicParsing="false" onAction="#menuItemCustom" text="Custom" />
                         <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Small" />
-                        <MenuItem mnemonicParsing="false" text="Medium" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemSmall" text="Small" />
+                        <MenuItem mnemonicParsing="false" onAction="#menuItemMedium" text="Medium" />
                     </items>
                   </Menu>
-                  <MenuItem mnemonicParsing="false" text="Maximize" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemMaximize" text="Maximize" />
                   <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem mnemonicParsing="false" text="Show Virtual Rooms" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemShowVR" text="Show Virtual Rooms" />
           </items>
         </Menu>
             <Menu mnemonicParsing="false" text="Image">
                <items>
-                  <MenuItem mnemonicParsing="false" text="Save as Image" />
-                  <MenuItem mnemonicParsing="false" text="Preview as Image" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemSaveAsImage" text="Save as Image" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemPreviewAsImage" text="Preview as Image" />
                </items>
             </Menu>
             <Menu mnemonicParsing="false" text="ROM">
                <items>
-                  <MenuItem mnemonicParsing="false" text="Create ROM Area" />
-                  <MenuItem mnemonicParsing="false" text="Create OLC Code" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemCreateROMArea" text="Create ROM Area" />
+                  <MenuItem mnemonicParsing="false" onAction="#menuItemCreateOLCCode" text="Create OLC Code" />
                </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
@@ -154,6 +158,20 @@
             </VBox>
          </children>
       </HBox>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS" />
+      <HBox prefHeight="280.0" prefWidth="200.0">
+         <children>
+            <TreeView prefHeight="240.0" prefWidth="175.0" />
+            <TabPane prefHeight="230.0" prefWidth="461.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="mapName">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="211.0" prefWidth="460.0" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </HBox>
+      <TextArea prefHeight="125.0" prefWidth="640.0" />
   </children>
 </VBox>
